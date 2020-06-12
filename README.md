@@ -3,6 +3,7 @@
 
 ![[GitHub package.json version]](https://img.shields.io/github/package-json/v/ibtesam123/Quizzo-Server)
 ![[GitHub last commit]](https://img.shields.io/github/last-commit/ibtesam123/Quizzo-Server)
+![GitHub](https://img.shields.io/github/license/ibtesam123/Quizzo)
 ![[GitHub stars]](https://img.shields.io/github/stars/ibtesam123/quizzo-server?style=social)
 ![[GitHub forks]](https://img.shields.io/github/forks/ibtesam123/quizzo-server?style=social)
 
@@ -18,7 +19,7 @@ REST api made using Express.js and MongoDB as the database. Deployed on Heroku p
 3. Run command ```npm install```
 4. Create ```.env``` file in the root folder and add your credentials as follows: 
 
-    ```
+    ```sh
         PORT=8080
         MONGO_URI= <YOUR MONGODB URI>
         WRITE_KEY= <ADD YOUR PREFERRED KEY FOR R/W ACCESS TO DATABASE>
